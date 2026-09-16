@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Anna George">
+  <title>Anna George | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">AG.</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <div class="nav-wrap">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Computer Science • Machine Learning</p>
+          <h1>Anna<br><span>George.</span></h1>
+          <h2>Computer Science student building at the intersection of software, AI and intelligent systems.</h2>
+          <p class="hero-text">Final-year B.Tech CSE student with a Specialized Honors in Machine Learning, interested in solving technical problems through software, AI/ML and systems-oriented projects.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn secondary" href="#contact">Get In Touch</a>
+          </div>
+        </div>
+        <aside class="hero-profile">
+          <div class="profile-frame">
+            <img src="images/profile.jpg" alt="Profile photo of Anna George">
+          </div>
+          <div class="profile-note">
+            <span>Based in</span>
+            <strong>Thiruvananthapuram, Kerala</strong>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">01 — About</p>
+          <h2>A little about me.</h2>
+        </div>
+        <div class="about-grid">
+          <article class="about-card">
+            <p>I am a final-year Computer Science and Engineering student at Mar Baselios College of Engineering & Technology, with a Specialized Honors in Machine Learning.</p>
+            <p>My interests span machine learning, software development, cybersecurity and intelligent systems. I enjoy understanding how systems work and turning that understanding into practical projects.</p>
+            <p>My academic and project work has included SDN-based cybersecurity, RAG/LLM systems, full-stack development, autonomous robotics and machine-learning-oriented problem solving.</p>
+          </article>
+          <aside class="quick-facts">
+            <div><span>CGPA</span><strong>9.85 / 10</strong></div>
+            <div><span>Honors</span><strong>Machine Learning</strong></div>
+            <div><span>Exchange</span><strong>Universiti Teknologi Malaysia</strong></div>
+            <div><span>Languages</span><strong>English • Malayalam • French • Hindi </strong></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">02 — Skills</p>
+          <h2>Tools & technologies.</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skills-card">
+            <h3>Technical Skills</h3>
+            <ul class="skill-list">
+              <li>Python</li><li>C / C++</li><li>JavaScript</li><li>HTML5</li>
+              <li>CSS3</li><li>Node.js</li><li>Express.js</li><li>MongoDB</li>
+              <li>Machine Learning</li><li>RAG / LLM</li><li>ROS2</li><li>SDN</li>
+            </ul>
+          </article>
+          <article class="skills-card">
+            <h3>Areas of Interest</h3>
+            <dl class="skill-description">
+              <div><dt>Machine Learning</dt><dd>Advanced Academic Focus</dd></div>
+              <div><dt>Software Development</dt><dd>Project Experience</dd></div>
+              <div><dt>Cybersecurity</dt><dd>Project Experience</dd></div>
+              <div><dt>AI & Intelligent Systems</dt><dd>Project / Research Interest</dd></div>
+              <div><dt>Robotics</dt><dd>Internship Experience</dd></div>
+            </dl>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+  <div class="container">
+
+    <div class="section-heading">
+      <p class="section-label">03 — Projects</p>
+      <h2>Things I've built.</h2>
+      <p class="section-description">
+        A selection of academic and technical projects spanning AI, machine
+        learning, cybersecurity, blockchain and intelligent data processing.
+      </p>
+    </div>
+
+    <!-- Project category filters are generated by JavaScript -->
+    <div class="filter-buttons" id="filterButtons"></div>
+
+    <!-- Project cards are generated dynamically by JavaScript -->
+    <div class="projects-grid" id="projectsContainer"></div>
+
+  </div>
+</section>
+
+
+<section id="experience" class="section section-alt">
+  <div class="container">
+
+    <div class="section-heading">
+      <p class="section-label">04 — Experience</p>
+      <h2>Where I've worked.</h2>
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Organisation</th>
+            <th>Role</th>
+            <th>Duration</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <tr>
+            <td>Genrobotic Innovations Pvt. Ltd.</td>
+
+            <td>R&amp;D Intern</td>
+
+            <td>Dec 2024 – Jan 2025</td>
+
+            <td>
+              Worked on autonomous navigation using Python and ROS2.
+              Used Gazebo and RViz2 for simulation, debugging and testing,
+              while working with the development path from digital-twin
+              simulation toward hardware.
+            </td>
+          </tr>
+
+          <tr>
+            <td>Intel Unnati Labs</td>
+
+            <td>Industrial Trainee</td>
+
+            <td>4 Months</td>
+
+            <td>
+              Completed an optimization-focused technical project as part
+              of industrial training, applying machine-learning and
+              computational problem-solving concepts.
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">05 — Education</p>
+          <h2>Academic background.</h2>
+        </div>
+        <div class="table-wrapper">
+          <table>
+            <thead><tr><th>Institution</th><th>Degree</th><th>Duration</th><th>Grade / Description</th></tr></thead>
+            <tbody>
+              <tr>
+                <td>Mar Baselios College of Engineering &amp; Technology</td>
+                <td>B.Tech Computer Science &amp; Engineering</td>
+                <td>Final Year</td>
+                <td>CGPA: 9.85 / 10 • Specialized Honors in Machine Learning</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="achievement-grid">
+          <article class="extra-card"><span>Achievement</span><h3>Institutional Topper</h3><p>Maintaining a 9.85/10 CGPA in the undergraduate programme.</p></article>
+          <article class="extra-card"><span>Academic Exchange</span><h3>UTM Selection</h3><p>Selected as one of five students institution-wide for an international academic exchange at Universiti Teknologi Malaysia.</p></article>
+          <article class="extra-card"><span>Recognition</span><h3>Proficiency Awards</h3><p>Recipient of college proficiency recognition in previous academic years.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-intro">
+          <p class="section-label">06 — Contact</p>
+          <h2>Let's connect.</h2>
+          <p>For opportunities, collaborations or simply to say hello, feel free to reach out.</p>
+          <div class="contact-links">
+            <a href="annageorge.b23cs1214@mbcet.ac.in">✉ annageorge.b23cs1214@mbcet.ac.in</a>
+            <a href="https://github.com/annageorge-07" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            <a href="assets/resume.pdf" download>↓ Download Resume</a>
+          </div>
+        </div>
+
+        <article class="contact-card">
+          <h3>Contact Me</h3>
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" type="text" placeholder="Your name">
+              <small id="nameError" class="error-message"></small>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="you@example.com">
+              <small id="emailError" class="error-message"></small>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="5" placeholder="Write your message..."></textarea>
+              <small id="messageError" class="error-message"></small>
+            </div>
+            <button class="btn primary form-btn" type="submit">Send Message</button>
+            <p id="formSuccess" class="success-message"></p>
+          </form>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© <span id="currentYear"></span> Anna George. </p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
